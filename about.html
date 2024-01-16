@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Power Electric-Solar USA
+    </title>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+  />
+    <style>
+        /* Add your styling here */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .button {
+            margin: auto;
+            padding: 10px 20px; /* Adjust padding to control button width */
+            background-color: #003366;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+
+        }
+
+        header {
+            background-color: #003366;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: white;
+            padding: 10px;
+            padding-left: 30px;
+            padding-right: 30px;
+        }
+
+        .logo img {
+            max-width: 175px; /* Ensure the image doesn't exceed its container */
+            height: auto; /* Maintain aspect ratio */
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #003366;
+            font-size: 18px;
+            font-weight: 400;
+            text-transform: uppercase;
+        }
+
+        .header-button {
+            padding: 8px 16px;
+            background-color: #003366 ;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        /* image-text-section */
+        .image-text-section {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            padding: 40px;
+            background-color: #f4f4f4;
+            color: #6699cc; /* Set text color as needed */
+
+        }
+
+        .image-text-section h2{
+           
+            color: #336699; /* Set text color as needed */
+
+        }
+
+        .about-img {
+            max-width: 30%; /* Make sure the image doesn't exceed its container */
+            height: auto;
+            border: 1px;
+            border-radius: 10px;
+        }
+
+        .text-section {
+            max-width: 600px;
+        }
+
+         /* New Card Styles */
+         .cards-section {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            flex-wrap: wrap; /* Allow cards to wrap to the next line */
+            padding: 20px;
+        }
+
+        .card {
+            flex: 1;
+            text-align: center;
+            margin: 10px;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+
+        .card img {
+            max-width: 100%;
+            height: auto;
+            max-height: 100px;
+            margin-bottom: 10px;
+        }
+
+
+         /* New Section Styles */
+         .additional-section {
+            text-align: center;
+            padding: 40px;
+            background-color: #ffffff;
+            color: #fff;
+        }
+
+        .additional-section h2 {
+            font-size: 28px;
+            margin-bottom: 20px;
+            color: #336699;
+        }
+
+        .additional-section p {
+            font-size: 18px;
+            margin-bottom: 20px;
+            color: #3366cc;
+        }
+
+        .quote {
+            font-style: italic;
+            font-size: 20px;
+            margin-bottom: 20px;
+        }
+
+        .additional-button {
+            padding: 10px 20px;
+            background-color: #fff;
+            color: #003366;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        /* footer */
+        footer {
+        background-color: #003366;
+                color: rgb(255, 255, 255);
+        text-align: center;
+        padding: 20px;
+        				box-shadow: 0 -5px 5px -5px #333;
+
+      }
+
+      .footer-row {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        padding-top: 10px;
+      }
+
+      .footer-row-columns {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center; /* Center the columns */
+}
+
+.col {
+  flex: 1;
+  text-align: center;
+  padding: 10px;
+  margin: 5px; /* Add margin for spacing */
+  flex-basis: calc(33.33% - 20px); /* Set the width for each column */
+  max-width: 300px; /* Add max-width to limit column width */
+}
+
+      .centered-logo img {
+        display: block;
+        margin: 0 auto;
+        max-width: 200px; /* Adjust the max-width as needed */
+      }
+
+      h3 {
+        margin-bottom: 10px;
+      }
+
+      ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+      }
+
+      ul li {
+        margin-bottom: 5px;
+      }
+
+      ul a {
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        display: block; /* Display links as block-level elements */
+      }
+
+      ul a:hover{
+       color: rgb(193, 14, 14);
+       font-size: 18px;
+      }
+
+      .social-media a {
+        display: inline-block;
+        margin: 0 5px;
+        color: rgb(255, 255, 255);
+        font-size: 24px;
+        text-decoration: none;
+      }
+
+
+      .social-media a:hover{
+        color: rgb(193, 14, 14);
+       font-size: 26px;
+      }
+
+      .centered-links {
+  display: flex;
+  justify-content: center;
+}
+
+.centered-links a {
+  display: block;
+  margin: 0 5px; /* Add some margin for spacing */
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+.centered-links a:hover{
+  color: rgb(193, 14, 14);
+       font-size: 18px;
+}
+
+      .copyright p {
+        margin: 0;
+      }
+
+
+    </style>
+</head>
+<body>
+
+<!--Header component with navbar-->
+
+    <header>
+        <div>
+            <p><a href="tel:+13524550022" style="color: white; cursor:pointer;" class="hero-btn">(352) 455-0022</a> - Call us for a free inquiry!</p>
+        </div>
+    </header>
+    <nav>
+        <div class="logo"><img src="/images/logo.png" alt="Your Logo"></div>
+        <ul>
+            <li><a href="/pages/index.html">HOME</a></li>
+            <li><a href="/pages/about.html">ABOUT</a></li>
+            <li><a href="/pages/services.html">SERVICES</a></li>
+            <li><a href="/pages/areas-we-serve.html">AREAS WE SERVE</a></li>
+            <li><a href="/pages/faqs.html">FAQS</a></li>
+            <li><a href="/pages/contact.html">CONTACT</a></li>
+
+
+        </ul>
+        <button class="header-button">Your Button</button>
+    </nav>
+<!--End Header component with navbar-->
+
+<!-- New Section: Image and Text -->
+<section class="image-text-section">
+    <div class="text-section">
+        <h2>About Power Electric & Solar USA</h2>
+        <p>We’re a family-owned and operated electric company focusing on commercial, residential, and industrial services. We come from a long line of Master Electricians in the family. Our owner and Master Electrician, Dean Murphy, passed his Master’s test in 1989, dedicating his entire career to helping homeowners and businesses in the DeLand, FL, area.
+            <br><br>
+
+            When you choose to work with Power Electric USA, you choose to work with a team of dedicated electricians with all of the required qualifications and expertise to tackle all of your electrical needs with perfection.</p>
+    </div>
+    <img src="/images/about.jpeg" class="about-img"alt="About Image">
+</section>
+<!-- End New Section -->
+
+
+<!-- New Section: Cards -->
+<section class="cards-section">
+    <div class="card">
+        <img src="/images/card1.jpg" alt="Card 1 Image">
+        <h3>Wiring</h3>
+        <p>We'll ensure that your wiring follows safety standards.</p>
+    </div>
+    <div class="card">
+        <img src="/images/card2.jpg" alt="Card 2 Image">
+        <h3>Service Changes</h3>
+        <p>Keep your electrical sytems up to date with a panel upgrade.</p>
+    </div>
+    <div class="card">
+        <img src="/images/card3.jpg" alt="Card 3 Image">
+        <h3>Solar Panel Installation</h3>
+        <p>Transition into a greener and cleaner energy source.</p>
+    </div>
+    <div class="card">
+        <img src="/images/card4.jpg" alt="Card 4 Image">
+        <h3>Lighting</h3>
+        <p>Keep your property thouroughly illuminated with our help.</p>
+    </div>
+    <div class="card">
+        <img src="/images/card5.jpg" alt="Card 5 Image">
+        <h3>General Electric Services</h3>
+        <p>Need help with miscellaneous electrical repairs, we can help.</p>
+    </div>
+   
+</section>
+<!-- End New Section -->
+
+
+<!-- New Section: Additional Information -->
+<section class="additional-section">
+    <h2>Why Should YOU Consider Working With US?</h2>
+    <p>There are numerous electrical companies out there that offer similar services to ours, so why should you call us instead?
+        We come from a line of electricians, and we always want to better ourselves in order to provide the best service to our customers. We also understand that our success depends on the satisfaction of our clients, and we won’t rest until you’re satisfied! Therefore, your satisfaction is our top priority.</p>
+    <p class="quote">"Don’t settle for less than the best and team up with Power Electric USA, your go-to electrical company!" <br>
+    - Dean Murphy, Owner & Master Electrician
+</p>
+    <button class="button">Learn More</button>
+</section>
+<!-- End New Section -->
+
+<footer>
+
+
+    <div class="footer-row footer-row-columns">
+      <div class="col">
+          <div class="centered-logo" style="margin-bottom:10px">
+            <a href="index.html"><img
+              src="/images/footer-logo.png"
+              alt="Power Electric USA Footer Logo"
+            /></a>
+          </div>
+          <div class="social-media" style="margin-bottom:10px">
+              <a href="#"><i class="fab fa-facebook"></i></a>
+              <a href="#"><i class="fab fa-yelp"></i></a>
+              <a href="#"><i class="fab fa-google"></i></a>
+              <a href="#"><i class="fab fa-linkedin"></i></a>
+              <a href="#"><i class="fa-solid fa-b"></i></a>
+            </div>
+            <div class="centered-links">
+              <a href="#">Site Map</a>
+
+              <a href="#">Terms & Privacy</a>
+  
+          </div>
+        </div>
+      
+      <div class="col">
+        <h3>BUSINESS INFO</h3>
+        <ul>
+          <li><a href="tel:+13524550022">(352) 455-0022</a></li>
+          <li><a href="mailto:info@powereusa.com">info@powereusa.com</a></li>        
+          <li>CEC#13008111</li>
+          <li>CEB#1261223</li>
+        </ul>
+      </div>
+      <div class="col">
+        <h3>SERVICES</h3>
+        <ul>
+          <a href="solar-panel-installation.html">Solar Panel Installation</a>
+          <a href="wiring.html">Wiring</a>
+          <a href="service-changes.html">Service Changes</a>
+          <a href="lighting.html">Lighting</a>
+          <a href="general-electric-services.html">General Electric Services</a>
+        </ul>
+      </div>
+      <div class="col">
+        <h3>USEFUL LINKS</h3>
+        <ul>
+          <a href="about.html">About</a>
+          <a href="areas-we-serve.html">Areas We Serve</a>
+          <a href="contact.html">Contact</a>
+          <a href="faq.html">FAQ's</a>
+          <a href="https://reviewsonmywebsite.com/feedback/power-electric-solar-usa">Leave a Review</a>
+      </ul>
+      </div>
+  </div>
+
+    <div class="footer-row">
+  
+    </div>
+
+    <div class="footer-row">
+      <div class="copyright">
+        <p>&copy;  Power Electric USA 2023, All Rights Reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+
+</body>
+</html>
