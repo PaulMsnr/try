@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Power Electric-Solar USA
+    </title>
+    <style>
+        /* Add your styling here */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #003366;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: white;
+            padding: 10px;
+            padding-left: 30px;
+            padding-right: 30px;
+        }
+
+        .logo img {
+            max-width: 175px; /* Ensure the image doesn't exceed its container */
+            height: auto; /* Maintain aspect ratio */
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #003366;
+            font-size: 18px;
+            font-weight: 400;
+            text-transform: uppercase;
+        }
+
+        .header-button {
+            padding: 8px 16px;
+            background-color: #003366 ;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+         /* cover section styles */
+         .cover-section {
+            position: relative;
+            height: 100vh; /* Set the height to 100% of the viewport height */
+            background-image: url('/images/cover-image.jpeg'); /* Replace with your actual image path */
+            background-size: cover;
+            background-position: top;
+            color: #fff;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+    
+
+        .button {
+            margin: auto;
+            padding: 10px 20px; /* Adjust padding to control button width */
+            background-color: #003366;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+
+        }
+
+
+    </style>
+</head>
+<body>
+
+<!--Header component with navbar-->
+
+    <header>
+        <div>
+            <p><a href="tel:+13524550022" style="color: white; cursor:pointer;" class="hero-btn">(352) 455-0022</a> - Call us for a free inquiry!</p>
+        </div>
+    </header>
+    <nav>
+        <div class="logo"><img src="/images/logo.png" alt="Your Logo"></div>
+        <ul>
+            <li><a href="/pages/index.html">HOME</a></li>
+            <li><a href="/pages/about.html">ABOUT</a></li>
+            <li><a href="/pages/services.html">SERVICES</a></li>
+            <li><a href="/pages/areas-we-serve.html">AREAS WE SERVE</a></li>
+            <li><a href="/pages/faqs.html">FAQS</a></li>
+            <li><a href="/pages/contact.html">CONTACT</a></li>
+
+
+        </ul>
+        <button class="header-button">Your Button</button>
+    </nav>
+<!--End Header component with navbar-->
+
+<!--Section with Cover Image-->
+<section class="cover-section">
+    <!-- <h2>Cover Section Header</h2> -->
+    <button class="button">Button in Cover Section</button>
+</section>
+<!--End Section with Cover Image-->
+
+
+</body>
+</html>
